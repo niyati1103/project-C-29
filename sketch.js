@@ -69,8 +69,10 @@ function setup() {
 function draw() {
   background(56,44,44); 
  
-  imageMode(CENTER); 
-  image(rock_img,ball.position.x,ball.position.y,40,40)
+  imageMode(CENTER);
+  image(ball.position.x,ball.position.y) 
+  
+  
 
 
   stroke(0,0,0);
